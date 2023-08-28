@@ -1,0 +1,53 @@
+/*pre defined styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.primary-color{
+    color: #FD6E0A;
+}
+.primary-button{
+   
+    border-radius: 5px;
+    background: #FD6E0A;
+    font-size: 20px;
+    color: white;
+font-style: normal;
+font-weight: 700;
+
+border: none;
+padding: 18px 38px;
+}
+
+
+
+/* nav releted style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+line-height: normal;
+}
+
+nav >ul{
+    display: flex;
+    align-items:center
+}
+nav li{
+   list-style: none;
+   margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+}
+
+/* header releted style */
+.header{
+    background: #FFF8F3;
+}
