@@ -23,6 +23,7 @@ color:  #181818;
 text-align: center;
 font-size: 35px;
 font-weight: 700;
+margin-bottom: 30px;
 
 }
 .section-description{
@@ -114,4 +115,86 @@ background: #FFF8F3;
 }
 .about-info{
     text-align: center;
+}
+
+
+
+/*skills section */
+.skills-container{
+    display: flex;gap: 24px;
+    margin-bottom: 130px;
+}
+
+.skill{
+
+border-radius: 5px;
+background: #FFF;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+padding: 30px;
+margin-top: 50px;
+}
+.skil-logo{
+
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+}
+.skill-title{
+
+    color: #181818;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    width: 201px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+}
+
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 70px;
+}
+.resume-column-title{
+    color:  #474747;
+font-size: 30px;
+font-weight: 700;
+margin-top: 53px;
+}
+.resume-item-title{
+    color: #474747;
+font-size: 25px;
+font-weight: 700;
+}
+.resume-item-institute{
+    color:  #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-details{
+    color:  #757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+#download-cv-btn{
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.resume-container hr{
+    margin :30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
