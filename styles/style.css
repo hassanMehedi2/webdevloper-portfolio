@@ -198,3 +198,32 @@ font-weight: 400;
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/* footer section*/
+
+.footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+    background-color:#FFF8F3; 
+   
+}
+.footer-column{
+    width: 50%;
+}
+.form input,textarea{
+    display: block;
+    border-radius: 5px;
+background:  #FFF;
+    border: 0;
+    width: 100%;
+    margin-bottom: 30px;
+   
+
+font-size: 16px;
+
+font-weight: 400;
+}
+.form input{
+    height: 64px;
+}
